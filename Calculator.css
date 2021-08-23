@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13, 0 , 31);
+}
+.container{
+    margin: 10px auto;
+    width: 200px;
+}
+.sreen{
+    background-color: white;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+.keyboard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.iteam{
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(212, 212,212);
+}
+.iteam:hover{
+    background-color: rgb(182,182,182);
+}
+.iteam1{
+    grid-column: 1/span 2;
+    background-color: hotpink;
+}
+.iteam1:hover{
+    background-color: rgb(204,55,129);
+}
+.iteam2{
+   
+    background-color: rgb(245, 149, 197);
+}
+.iteam2:hover{
+    background-color: rgb(204,55,129);
+}
+ .input{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 40px;
+
+}
